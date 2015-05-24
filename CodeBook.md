@@ -38,11 +38,13 @@ Data has been collected for six subjects' activities: laying, sitting, standing,
 
 * Labels the data set columns with descriptive variable names.
 
-There is a bunch of mispints in the list of features. Some of features have wrong names, such as 'fBodyBodyAccJerkMag' with duplicate of 'Body'. See naming scheme for feature names at the document 'features_info.txt' in original dataset. We fix wrong names at the phase of variable names transformation.
+Variable names are taken from file "features.txt" in original dataset. If we try to use them as column names directly, they are corrupted badly and look like "tBodyAcc...X" instead of "tBodyAcc-energy()-X". So, script removes parenthesis, substitutes dashes with underscores, and transforms names to lower case.
+
+Also, there is a bunch of mispints in the list of features. Some of features have wrong names, such as 'fBodyBodyAccJerkMag' with duplicates of 'Body' substring. See naming scheme for feature names at the document 'features_info.txt' in original dataset. Script fixes wrong names at the phase of variable names transformation.
 
 * Creates a tidy data set with the average of each variable for each activity and each subject.
 
-Tidy data table is created with using of **dplyr** package. Script creates groups in factor colums "activity" and "subject", and then summarize groups with **mean** fuction. This table consists of 180 rows and 81 columns. Finally, script writes resulting table to file "tidy_data.txt".
+Tidy data table is created with using of **dplyr** package. Script creates groups in factor colums "activity" and "subject", and then summarize groups with **mean** fuction. So, variables represent average value of measurements for each combination of activity and subject. This table consists of 180 rows and 81 columns. Finally, script writes resulting table to file "tidy_data.txt".
 
 ## Variables
 
