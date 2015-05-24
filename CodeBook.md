@@ -87,36 +87,47 @@ Tidy data table is created with using of **dplyr** package. Script creates group
 10. tgravityacc_mean_y
   - Type: numeric
   - Unit: seconds
+
 11. tgravityacc_mean_z
   - Type: numeric
   - Unit: seconds
+
 12. tgravityacc_std_x
   - Type: numeric
   - Unit: seconds
+
 13. tgravityacc_std_y
   - Type: numeric
   - Unit: seconds
+
 14. tgravityacc_std_z
   - Type: numeric
   - Unit: seconds
+
 15. tbodyaccjerk_mean_x
   - Type: numeric
   - Unit: seconds
+
 16. tbodyaccjerk_mean_y
   - Type: numeric
   - Unit: seconds
+
 17. tbodyaccjerk_mean_z
   - Type: numeric
   - Unit: seconds
+
 18. tbodyaccjerk_std_x
   - Type: numeric
   - Unit: seconds
+
 19. tbodyaccjerk_std_y
   - Type: numeric
   - Unit: seconds
+
 20. tbodyaccjerk_std_z
   - Type: numeric
   - Unit: seconds
+
 21. tbodygyro_mean_x
   - Type: numeric
   - Unit: seconds
