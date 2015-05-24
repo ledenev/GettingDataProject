@@ -48,7 +48,7 @@ Tidy data table is created with using of **dplyr** package. Script creates group
 
 ## Variables
 
-All the values of variables are normalized and bounded within [-1,1].
+All the numeric values of variables are normalized and bounded within [-1,1].
 
 1. activity
   - Factor of class labels with their activity names
