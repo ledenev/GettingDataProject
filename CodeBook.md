@@ -48,15 +48,15 @@ Tidy data table is created with using of **dplyr** package. Script creates group
 
 1. activity
 
-Factor of class labels with their activity names
-Type: character
-Values (6): "laying", "sitting", "standing", "walking", "walking-downstairs", "walking-upstairs"
+  - Factor of class labels with their activity names
+  - Type: character
+  - Values (6): "laying", "sitting", "standing", "walking", "walking-downstairs", "walking-upstairs"
 
 2. subject
 
-Factor with IDs of subjects who carried out the experiment
-Type: character
-Values (30): from "1" to "30"
+  - Factor with IDs of subjects who carried out the experiment
+  - Type: character
+  - Values (30): from "1" to "30"
 
 3. tbodyacc_mean_x
   - Type: numeric
@@ -69,13 +69,13 @@ Values (30): from "1" to "30"
 
 5. tbodyacc_mean_z
 
-Type: numeric
-Unit: seconds
+  - Type: numeric
+  - Unit: seconds
 
 6. tbodyacc_std_x
 
-Type: numeric
-Unit: seconds
+  - Type: numeric
+  - Unit: seconds
 
 7. tbodyacc_std_y
 
