@@ -1,7 +1,7 @@
-# Getting and Cleaning Data: Course Project
+# Getting Data: Course Project
 
 ## Project Description
-The goal of this project is to prepare tidy data on basis of training and test datasets. Original data is taken from "Human Activity Recognition Using Smart Phones" project by Samsung company. A full description of the project and sources of datasets are available at the site: 
+The goal of this project is to prepare tidy data on basis of training and test datasets. Original data is taken from "Human Activity Recognition Using Smart Phones" project and represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description of the project and sources of datasets are available at the site: 
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
@@ -14,7 +14,7 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
   * Run script with the command: source("run\_analysis.R")
   * Resulting file "tidy\_data.txt" will be created on script's execution.
 
-## Description of script's functionality
+## Functionality of the script
 This script performs the following transformations:
 
   * Merges the training and the test data sets to create one data set.
