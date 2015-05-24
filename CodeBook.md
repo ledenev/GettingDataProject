@@ -47,13 +47,11 @@ Tidy data table is created with using of **dplyr** package. Script creates group
 ## Variables
 
 1. activity
-
   - Factor of class labels with their activity names
   - Type: character
   - Values (6): "laying", "sitting", "standing", "walking", "walking-downstairs", "walking-upstairs"
 
 2. subject
-
   - Factor with IDs of subjects who carried out the experiment
   - Type: character
   - Values (30): from "1" to "30"
@@ -63,308 +61,302 @@ Tidy data table is created with using of **dplyr** package. Script creates group
   - Unit: seconds
 
 4. tbodyacc_mean_y
-
   - Type: numeric
   - Unit: seconds
 
 5. tbodyacc_mean_z
-
   - Type: numeric
   - Unit: seconds
 
 6. tbodyacc_std_x
-
   - Type: numeric
   - Unit: seconds
 
 7. tbodyacc_std_y
-
-Type: numeric
-Unit: seconds
+  - Type: numeric
+  - Unit: seconds
 
 8. tbodyacc_std_z
-
-Type: numeric
-Unit: seconds
+  - Type: numeric
+  - Unit: seconds
 
 9. tgravityacc_mean_x
+  - Type: numeric
+  - Unit: seconds
 
-Type: numeric
-
-Unit: seconds
 10. tgravityacc_mean_y
-Type: numeric
-Unit: seconds
+  - Type: numeric
+  - Unit: seconds
 11. tgravityacc_mean_z
-Type: numeric
-Unit: seconds
+  - Type: numeric
+  - Unit: seconds
 12. tgravityacc_std_x
-Type: numeric
-Unit: seconds
+  - Type: numeric
+  - Unit: seconds
 13. tgravityacc_std_y
-Type: numeric
-Unit: seconds
+  - Type: numeric
+  - Unit: seconds
 14. tgravityacc_std_z
-Type: numeric
-Unit: seconds
+  - Type: numeric
+  - Unit: seconds
 15. tbodyaccjerk_mean_x
-Type: numeric
-Unit: seconds
+  - Type: numeric
+  - Unit: seconds
 16. tbodyaccjerk_mean_y
-Type: numeric
-Unit: seconds
+  - Type: numeric
+  - Unit: seconds
 17. tbodyaccjerk_mean_z
-Type: numeric
-Unit: seconds
+  - Type: numeric
+  - Unit: seconds
 18. tbodyaccjerk_std_x
-Type: numeric
-Unit: seconds
+  - Type: numeric
+  - Unit: seconds
 19. tbodyaccjerk_std_y
-Type: numeric
-Unit: seconds
+  - Type: numeric
+  - Unit: seconds
 20. tbodyaccjerk_std_z
-Type: numeric
-Unit: seconds
+  - Type: numeric
+  - Unit: seconds
 21. tbodygyro_mean_x
-Type: numeric
-Unit: seconds
+  - Type: numeric
+  - Unit: seconds
 
 22. tbodygyro_mean_y
-Type: numeric
-Unit: seconds
+  - Type: numeric
+  - Unit: seconds
 
 23. tbodygyro_mean_z
-Type: numeric
-Unit: seconds
+  - Type: numeric
+  - Unit: seconds
 
 24. tbodygyro_std_x
-Type: numeric
-Unit: seconds
+  - Type: numeric
+  - Unit: seconds
 
 25. tbodygyro_std_y
-Type: numeric
-Unit: seconds
+  - Type: numeric
+  - Unit: seconds
 
 26. tbodygyro_std_z
-Type: numeric
-Unit: seconds
+  - Type: numeric
+  - Unit: seconds
 
 27. tbodygyrojerk_mean_x
-Type: numeric
-Unit: seconds
+  - Type: numeric
+  - Unit: seconds
 
 28. tbodygyrojerk_mean_y
-Type: numeric
-Unit: seconds
+  - Type: numeric
+  - Unit: seconds
 
 29. tbodygyrojerk_mean_z
-Type: numeric
-Unit: seconds
+  - Type: numeric
+  - Unit: seconds
 
 30. tbodygyrojerk_std_x
-Type: numeric
-Unit: seconds
+  - Type: numeric
+  - Unit: seconds
 
 31. tbodygyrojerk_std_y
-Type: numeric
-Unit: seconds
+  - Type: numeric
+  - Unit: seconds
 
 32. tbodygyrojerk_std_z
-Type: numeric
-Unit: seconds
+  - Type: numeric
+  - Unit: seconds
 
 33. tbodyaccmag_mean
-Type: numeric
-Unit: seconds
+  - Type: numeric
+  - Unit: seconds
 
 34. tbodyaccmag_std
-Type: numeric
-Unit: seconds
+  - Type: numeric
+  - Unit: seconds
 
 35. tgravityaccmag_mean
-Type: numeric
-Unit: seconds
+  - Type: numeric
+  - Unit: seconds
 
 36. tgravityaccmag_std
-Type: numeric
-Unit: seconds
+  - Type: numeric
+  - Unit: seconds
 
 37. tbodyaccjerkmag_mean
-Type: numeric
-Unit: seconds
+  - Type: numeric
+  - Unit: seconds
 
 38. tbodyaccjerkmag_std
-Type: numeric
-Unit: seconds
+  - Type: numeric
+  - Unit: seconds
 
 39. tbodygyromag_mean
-Type: numeric
-Unit: seconds
+  - Type: numeric
+  - Unit: seconds
 
 40. tbodygyromag_std
-Type: numeric
-Unit: seconds
+  - Type: numeric
+  - Unit: seconds
 
 41. tbodygyrojerkmag_mean
-Type: numeric
-Unit: seconds
+  - Type: numeric
+  - Unit: seconds
 
 42. tbodygyrojerkmag_std
-Type: numeric
-Unit: seconds
+  - Type: numeric
+  - Unit: seconds
 
 43. fbodyacc_mean_x
-Type: numeric
-Unit: seconds
+  - Type: numeric
+  - Unit: seconds
 
 44. fbodyacc_mean_y
-Type: numeric
-Unit: seconds
+  - Type: numeric
+  - Unit: seconds
 
 45. fbodyacc_mean_z
-Type: numeric
-Unit: seconds
+  - Type: numeric
+  - Unit: seconds
 
 46. fbodyacc_std_x
-Type: numeric
-Unit: seconds
+  - Type: numeric
+  - Unit: seconds
 
 47. fbodyacc_std_y
-Type: numeric
-Unit: seconds
+  - Type: numeric
+  - Unit: seconds
 
 48. fbodyacc_std_z
-Type: numeric
-Unit: seconds
+  - Type: numeric
+  - Unit: seconds
 
 49. fbodyacc_meanfreq_x
-Type: numeric
-Unit: Hz (frequency)
+  - Type: numeric
+  - Unit: Hz (frequency)
 
 50. fbodyacc_meanfreq_y
-Type: numeric
-Unit: seconds
+  - Type: numeric
+  - Unit: seconds
 
 51. fbodyacc_meanfreq_z
-Type: numeric
-Unit: Hz (frequency)
+  - Type: numeric
+  - Unit: Hz (frequency)
 
 52. fbodyaccjerk_mean_x
-Type: numeric
-Unit: seconds
+  - Type: numeric
+  - Unit: seconds
 
 53. fbodyaccjerk_mean_y
-Type: numeric
-Unit: seconds
+  - Type: numeric
+  - Unit: seconds
 
 54. fbodyaccjerk_mean_z
-Type: numeric
-Unit: seconds
+  - Type: numeric
+  - Unit: seconds
 
 55. fbodyaccjerk_std_x
-Type: numeric
-Unit: seconds
+  - Type: numeric
+  - Unit: seconds
 
 56. fbodyaccjerk_std_y
-Type: numeric
-Unit: seconds
+  - Type: numeric
+  - Unit: seconds
 
 57. fbodyaccjerk_std_z
-Type: numeric
-Unit: seconds
+  - Type: numeric
+  - Unit: seconds
 
 58. fbodyaccjerk_meanfreq_x
-Type: numeric
-Unit: Hz (frequency)
+  - Type: numeric
+  - Unit: Hz (frequency)
 
 59. fbodyaccjerk_meanfreq_y
-Type: numeric
-Unit: Hz (frequency)
+  - Type: numeric
+  - Unit: Hz (frequency)
 
 60. fbodyaccjerk_meanfreq_z
-Type: numeric
-Unit: Hz (frequency)
+  - Type: numeric
+  - Unit: Hz (frequency)
 
 61. fbodygyro_mean_x
-Type: numeric
-Unit: seconds
+  - Type: numeric
+  - Unit: seconds
 
 62. fbodygyro_mean_y
-Type: numeric
-Unit: seconds
+  - Type: numeric
+  - Unit: seconds
 
 63. fbodygyro_mean_z
-Type: numeric
-Unit: seconds
+  - Type: numeric
+  - Unit: seconds
 
 64. fbodygyro_std_x
-Type: numeric
-Unit: seconds
+  - Type: numeric
+  - Unit: seconds
 
 65. fbodygyro_std_y
-Type: numeric
-Unit: seconds
+  - Type: numeric
+  - Unit: seconds
 
 66. fbodygyro_std_z
-Type: numeric
-Unit: seconds
+  - Type: numeric
+  - Unit: seconds
 
 67. fbodygyro_meanfreq_x
-Type: numeric
-Unit: Hz (frequency)
+  - Type: numeric
+  - Unit: Hz (frequency)
 
 68. fbodygyro_meanfreq_y
-Type: numeric
-Unit: Hz (frequency)
+  - Type: numeric
+  - Unit: Hz (frequency)
 
 69. fbodygyro_meanfreq_z
-Type: numeric
-Unit: Hz (frequency)
+  - Type: numeric
+  - Unit: Hz (frequency)
 
 70. fbodyaccmag_mean
-Type: numeric
-Unit: seconds
+  - Type: numeric
+  - Unit: seconds
 
 71. fbodyaccmag_std
-Type: numeric
-Unit: seconds
+  - Type: numeric
+  - Unit: seconds
 
 72. fbodyaccmag_meanfreq
-Type: numeric
-Unit: Hz (frequency)
+  - Type: numeric
+  - Unit: Hz (frequency)
 
 73. fbodyaccjerkmag_mean
-Type: numeric
-Unit: seconds
+  - Type: numeric
+  - Unit: seconds
 
 74. fbodyaccjerkmag_std
-Type: numeric
-Unit: seconds
+  - Type: numeric
+  - Unit: seconds
 
 75. fbodyaccjerkmag_meanfreq
-Type: numeric
-Unit: Hz (frequency)
+  - Type: numeric
+  - Unit: Hz (frequency)
 
 76. fbodygyromag_mean
-Type: numeric
-Unit: seconds
+  - Type: numeric
+  - Unit: seconds
 
 77. fbodygyromag_std
-Type: numeric
-Unit: seconds
+  - Type: numeric
+  - Unit: seconds
 
 78. fbodygyromag_meanfreq
-Type: numeric
-Unit: Hz (frequency)
+  - Type: numeric
+  - Unit: Hz (frequency)
 
 79. fbodygyrojerkmag_mean
-Type: numeric
-Unit: seconds
+  - Type: numeric
+  - Unit: seconds
 
 80. fbodygyrojerkmag_std
-Type: numeric
-Unit: seconds
+  - Type: numeric
+  - Unit: seconds
 
 81. fbodygyrojerkmag_meanfreq
-Type: numeric
-Unit: Hz (frequency)
+  - Type: numeric
+  - Unit: Hz (frequency)
